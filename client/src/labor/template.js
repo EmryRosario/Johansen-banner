@@ -11,7 +11,7 @@ function template (page) {
     }
     axios(options)
     .then(inspectors => {
-      let el = yo`<div id="main-container" col-xs-12 class="container">
+      let el = yo`<div id="labor-container" col-xs-12 class="container">
         <div class="row">
           <div class="col-xs-6">
           <h4 class="text-danger text-center">INSPECTORES NO LABORARON</h4>
